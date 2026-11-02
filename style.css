@@ -1,0 +1,71 @@
+body {
+  font-family: Tahoma;
+  background-color: #eef2f7;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+h1 {
+  color: #1f6feb;
+}
+
+input {
+  padding: 10px;
+  width: 65%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 18px;
+  background-color: #1f6feb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+li {
+  background-color: white;
+  padding: 12px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li span {
+  cursor: pointer;
+}
+
+li.done span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.hazf {
+  background-color: #e5484d;
+  padding: 4px 12px;
+}
+
+.tarikh {
+  display: block;
+  font-size: 12px;
+  color: gray;
+  margin-top: 4px;
+}
+
+.aghab {
+  color: red;
+}
+.dokmeha {
+  display: flex;
+  gap: 6px;
+}
+
+.virayesh {
+  background-color: #f0a43a;
+  padding: 4px 12px;
+}
